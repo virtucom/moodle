@@ -10,6 +10,7 @@
 # See gitignore(5) man page for more details
 #
 /config.php
+/config-dist.php
 /lib/editor/tinymce/extra/tools/temp/
 *~
 *.swp
@@ -33,5 +34,7 @@ composer.lock
 /behat.yml
 */yui/build/*/*-coverage.js
 /lib/yuilib/*/build/*/*-coverage.js
-
-.elasticbeanstalk/
+
+
+.elasticbeanstalk/
+
